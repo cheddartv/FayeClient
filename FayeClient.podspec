@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.social_media_url  = "https://twitter.com/nixzhu"
 
   s.ios.deployment_target = "8.0"
+  s.tvos.deployment_target = '9.0'
 
   s.dependency 'SocketRocket'
   s.source          = { :git => "https://github.com/nixzhu/FayeClient.git", :tag => s.version }
